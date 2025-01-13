@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import apiClient from "../services/api-client";
+import apiClient from "../services/api-client_proxy"; //import apiClient from "../services/api-client"; Use this to not include the proxy client in the query
 import { Text } from "@chakra-ui/react";
 
 interface Game {
