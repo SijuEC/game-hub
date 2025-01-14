@@ -24,4 +24,3 @@ dist-ssr
 *.sw?
 .vercel
 api-client_proxy.ts
-api-client.ts
